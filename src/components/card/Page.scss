@@ -1,0 +1,42 @@
+.page {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+}
+
+.header {
+  border: 1px solid black;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  border: 1px solid black;
+  bottom: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  .main {
+    border: 1px solid black;
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+
+.aside {
+  border: 1px solid black;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
